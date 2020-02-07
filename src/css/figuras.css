@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #21d927;
+}
+
+.Header {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #21d927;  
+}
+
+.Section-resultado {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+.Section-inputs {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.SectionVoltar {
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.H1 {
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.H2 {
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.Input {
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.Botao {
+    height: 50px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 900;
+    cursor: pointer;
+    color: #fff;
+    background-color: #21d927;
+}
+
+.Voltar {
+    height: 30px;
+    padding: 10px;
+    color: #fff;
+    background-color: #21d927;
+    border-radius: 15px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
